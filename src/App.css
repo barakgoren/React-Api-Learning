@@ -36,3 +36,123 @@
     transform: rotate(360deg);
   }
 }
+
+.convertor {
+  margin-left: 35%;
+}
+
+/* Lesson 5 components style */
+
+/* for global css */
+.more-info {
+  max-height: 300px;
+}
+
+.item {
+  width: 424px;
+}
+
+.close-button {
+  width: 14px;
+  height: 14px;
+  background-color: #ff5f56;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.min-button {
+  width: 14px;
+  height: 14px;
+  background-color: #dbab00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.exp-button {
+  width: 14px;
+  height: 14px;
+  background-color: #42c046;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-icon {
+  color: #030202;
+  font-weight: normal;
+  font-size: 10px;
+  padding-right: 1px;
+}
+.exp-icon {
+  color: #030202;
+  font-weight: normal;
+  font-size: 10px;
+  padding-left: 1px;
+  margin-left: -1.5px;
+}
+
+.main-container {
+  height: 450px;
+  width: 70% !important;
+  margin-top: 200px;
+  margin-left: 15%;
+  border-radius: 10px;
+  background-color: #242424;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.top-bar {
+  height: 30px;
+  background-color: #454545;
+  border: 1px solid black;
+}
+.top-bar-text {
+  margin-top: 2px;
+  margin-left: -40px;
+}
+
+.folder-icon {
+  font-size: 20px;
+  color: cyan;
+  margin-top: -2px;
+  margin-right: 13px;
+}
+
+.main-text {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace; /* Use a monospaced font */
+  color: #D4D4D4; /* Light text color */
+  font-size: 14px;
+}
+
+.input-field {
+  margin-top: -2px;
+  margin-left: 2px;
+}
+
+.scrollable-container::-webkit-scrollbar {
+width: 0.1rem; /* Set the width to a very small value */
+}
+
+.lines {
+  max-height: 93%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  /* Your CSS styles for screens smaller than 1700px go here */
+  .input-field {
+      width: 50% !important;
+  }
+  /* Add more styles as needed */
+}
+
+.my-header {
+  color: white;
+}
